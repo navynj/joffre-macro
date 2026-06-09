@@ -11,7 +11,7 @@ import time
 
 if __name__ == "__main__":
     try:
-        date = "2025-08-26" #input("Enter the date: ")
+        date = input("Enter the date: ")
         people = input("Enter the number of people: ")
         options = uc.ChromeOptions() 
         options.headless = False
